@@ -26,5 +26,4 @@ export default defineConfig({
     ],
   },
   srcDir: "./doc",
-  assetsDir: "./",
 });
