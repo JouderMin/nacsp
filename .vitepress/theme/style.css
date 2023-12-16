@@ -43,7 +43,16 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
- :root {
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --vp-font-family-mono: "Fira Code", monospace;
+  --vp-font-family-base: "Inter", "Noto Sans SC", sans-serif;
+}
+
+:root {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
@@ -136,4 +145,3 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
-

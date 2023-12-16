@@ -5,14 +5,10 @@ layout: home
 hero:
   name: "新世纪计算机科学计划"
   text: "New Age Computer Science Project"
-  tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 开始
+      link: /序
 
 features:
   - title: Feature A
